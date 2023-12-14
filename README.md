@@ -1,7 +1,3 @@
-# Paper 110
-Repository with code for WACV 2024 Paper 110
-
-
 1. To create the dataset needed for training, download the protein half-maps and mask files from EMDB FTP server
 ```
 rsync -rlpt -v -z --port=33444 rsync.rcsb.org::emdb/structures/EMD-*/masks/*msk_1.map ./masks/
